@@ -23,17 +23,17 @@
     "soft-skills"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "your.email@domain.com",
-    "url": "https://github.com/yourusername"
+    "name": "Glatinone",
+    "email": "yeheskieltampubolon@gmail.com",
+    "url": "https://github.com/glatinone"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yourusername/cybersecurity-communication-guide/issues"
+    "url": "https://github.com/glatinone/cybersecurity-communication-guide/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/cybersecurity-communication-guide.git"
+    "url": "git+https://github.com/glatinone/cybersecurity-communication-guide.git"
   },
   "dependencies": {
     "react": "^18.2.0",
