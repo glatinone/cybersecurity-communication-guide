@@ -134,8 +134,8 @@ Please feel free to:
 
 Have suggestions or found a bug? 
 - Open an issue on GitHub
-- Contact: [your-email@domain.com]
-- Twitter: [@yourusername]
+- Contact: [yeheskieltampubolon@gmail.com]
+- Instagram : [@kiel.at
 
 ## 📄 License
 
