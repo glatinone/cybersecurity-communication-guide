@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Interactive guide for cybersecurity professionals to effectively communicate technical concepts to non-technical audiences",
   "main": "src/index.js",
-  "homepage": "https://yourusername.github.io/cybersecurity-communication-guide",
+  "homepage": "https://glatinone.github.io/cybersecurity-communication-guide",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
