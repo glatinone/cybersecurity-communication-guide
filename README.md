@@ -51,13 +51,13 @@ Whether you're pitching to investors, presenting to clients, or explaining secur
 
 ## 📱 Live Demo
 
-[View the Interactive Guide](your-deployment-url-here)
+[View the Interactive Guide](https://claude.ai/public/artifacts/f62e576b-4645-4fc8-95a5-266f8aad5c2e)]
 
 ## 🏃‍♂️ Quick Start
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/cybersecurity-communication-guide.git
+git clone https://github.com/glatinone/cybersecurity-communication-guide.git
 cd cybersecurity-communication-guide
 ```
 
