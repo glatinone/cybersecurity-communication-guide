@@ -2,6 +2,10 @@
 
 An interactive web application designed to help cybersecurity professionals, startup founders, and IT experts effectively communicate complex technical concepts to non-technical audiences.
 
+**Live demo:** https://claude.ai/public/artifacts/f62e576b-4645-4fc8-95a5-266f8aad5c2e
+
+![Cybersecurity Communication Guide](docs/screenshot.png)
+
 ## 🎯 Purpose
 
 Whether you're pitching to investors, presenting to clients, or explaining security concepts to your team, this guide provides practical tools and techniques to bridge the communication gap between technical expertise and business understanding.
@@ -44,14 +48,14 @@ Whether you're pitching to investors, presenting to clients, or explaining secur
 ## 🛠️ Technology Stack
 
 - **Frontend**: React with Hooks
-- **Styling**: Tailwind CSS
+- **Styling**: Tailwind CSS (loaded from the Tailwind Play CDN in `public/index.html`)
 - **Icons**: Lucide React
 - **State Management**: React useState
-- **Deployment Ready**: Static site compatible
+- **Build**: Create React App (react-scripts 5); `npm run build` outputs a static site
 
 ## 📱 Live Demo
 
-[View the Interactive Guide](https://claude.ai/public/artifacts/f62e576b-4645-4fc8-95a5-266f8aad5c2e)]
+[View the Interactive Guide](https://claude.ai/public/artifacts/f62e576b-4645-4fc8-95a5-266f8aad5c2e) (hosted as a public Claude artifact)
 
 ## 🏃‍♂️ Quick Start
 
@@ -73,18 +77,29 @@ npm start
 
 4. Open your browser to `http://localhost:3000`
 
+To build a static production bundle in `build/`:
+```bash
+npm run build
+```
+
+`npm run deploy` builds and pushes `build/` to a `gh-pages` branch for GitHub Pages (see `homepage` in `package.json`).
+
 ## 📁 Project Structure
 
 ```
 cybersecurity-communication-guide/
 ├── src/
 │   ├── components/
-│   │   └── CommunicationGuide.jsx
+│   │   └── CommunicationGuide.jsx   # all guide content and UI
+│   ├── App.css
 │   ├── App.js
 │   └── index.js
 ├── public/
 │   └── index.html
+├── docs/
+│   └── screenshot.png
 ├── package.json
+├── LICENSE
 └── README.md
 ```
 
@@ -134,8 +149,9 @@ Please feel free to:
 
 Have suggestions or found a bug? 
 - Open an issue on GitHub
-- Contact: [yeheskieltampubolon@gmail.com]
-- Instagram : [@kiel.at
+- Email: yeheskieltampubolon@gmail.com
+- LinkedIn: [kiel-tampubolon](https://www.linkedin.com/in/kiel-tampubolon/)
+- Website: [kielltampubolon.id](https://www.kielltampubolon.id/)
 
 ## 📄 License
 
